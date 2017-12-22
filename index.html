@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!-- header -->
+  <div class="jumbotron">
+  <h1>Anytime is Train Time</h1>
+  <p>Choo Choo. Chee Chee.</p>
+  </div>
+
+<!-- first section- panel with table -->
+   <div class="panel panel-default">
+          <div class="panel-heading">
+          <h3 class="panel-title">Current Train Schedule</h3>
+          </div>
+          <div class="panel-body">
+          <table class="table">
+
+              <tr>
+                <th>Train Name</th>
+                <th>Destination</th>
+                <th>Frequency (min)</th>
+                <th>Next Arrival</th>
+                <th>Minutes Away</th>
+              </tr>
+          
+          </table>
+          </div>
+  </div>
+
+  <!-- second section-panel with form -->
+
+  <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Add Train</h3>
+          </div>
+          <div class="panel-body">
+  <!-- form begins -->
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputTrainTime">Train Time:</label>
+                  <input type="train time" class="form-control" id="exampleInputTrainTime" placeholder="Train Time">
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputDestination">Destination</label>
+                  <input type="destination" class="form-control" id="exampleInputDestination" placeholder="Destination">
+                </div>
+
+                 <div class="form-group">
+                  <label for="exampleInputFirstTrainTime">First Train Time (HH:mm - millitary time)</label>
+                  <input type="train time" class="form-control" id="exampleInputFirstTrainTime" placeholder="First Train Time">
+                </div>
+
+                 <div class="form-group">
+                  <label for="exampleInputFrequency">Frequence (min)</label>
+                  <input type="frequency" class="form-control" id="exampleInputFrequency" placeholder="Frequency">
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+             </form>
+          </div>
+  </div>
+
+  <!-- end of second section -->
+
+<!-- Javascript -->
+<script type="text/javascript" src="assets/logic.js"></script>
+</body>
+</html>

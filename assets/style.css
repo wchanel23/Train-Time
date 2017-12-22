@@ -1,0 +1,33 @@
+.jumbotron {
+
+    background-color: brown;
+	color: white;
+	text-align: center;
+
+}
+
+.panel-default {
+	border-radius: 20px;
+}
+
+.panel-default>.panel-heading {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+
+
+}
+
+body, html {
+    align-content: center;
+    margin: 0px 40px 40px 30px;
+    max-height: 3400px;
+}  
+
+
+
+
+.btn-default {
+	color: white;
+	background-color: blue;
+}
